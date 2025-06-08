@@ -449,6 +449,7 @@
             }
         }
 
+        // Removed the click event listeners for optimization buttons
         document.getElementById('s3-optimize-btn').addEventListener('click', () => getOptimizationSuggestions('S3'));
         document.getElementById('ec2-optimize-btn').addEventListener('click', () => getOptimizationSuggestions('EC2'));
     </script>
